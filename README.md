@@ -3,7 +3,7 @@
 Student: Victoria Ramos (920012149)
 
 ## Project Status
-Problem 1 is in progress. 
+Problem 1 is in progress. Right now, my logic seems to be working for X = Y. It was pretty straight forward. I just need to figure out and implement the logic for X < Y. My wiring is a bit messy, but I plan on cleaning it up once I have the logic working as expected.
 
 ## Known Issues
 
