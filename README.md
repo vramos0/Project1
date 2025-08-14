@@ -3,10 +3,10 @@
 Student: Victoria Ramos (920012149)
 
 ## Project Status
-This the current status of the project ...
+Problem 1 is in progress. 
 
 ## Known Issues
-The project fails to function properly in ...
+Currently no issues being faced.
 
 ## References
 * [Build an XOR gate from AND/NOT](https://electronics.stackexchange.com/questions/487529/build-an-xor-gate-from-and-not)
