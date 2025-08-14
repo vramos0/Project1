@@ -3,7 +3,8 @@
 Student: Victoria Ramos (920012149)
 
 ## Project Status
-Problem 1 is in progress. Right now, my logic seems to be working for X = Y. It was pretty straight forward. I just need to figure out and implement the logic for X < Y. My wiring is a bit messy, but I plan on cleaning it up once I have the logic working as expected.
+I've completed the comparison problem. I was able to implement the logic for X=Y and X<Y. I used several gates such as XOR, AND, NOT & OR. To figure out the logic, I referenced lecture notes and relied heavily on truth tables for the different gates. I still need to clean up the wiring a bit before submitting the assignment. I think I can make it look neater. 
+Now I'm working on the 'Gray' circuit problem. I read through the description and I think I'm going to give k-maps a try for figuring out the logic. Since my student ID ends with 9, I'm refering to the very last column of gray code values.
 
 ## Known Issues
 
