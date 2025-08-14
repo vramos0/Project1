@@ -6,7 +6,7 @@ Student: Victoria Ramos (920012149)
 Problem 1 is in progress. 
 
 ## Known Issues
-Right now, my logic seems to be working for X = Y. I just need to figure out and implement the logic for X < Y. My wiring is a bit messy, but I plan on cleaning it up once I have the logic working as expected.
+
 
 ## References
 * [Build an XOR gate from AND/NOT](https://electronics.stackexchange.com/questions/487529/build-an-xor-gate-from-and-not)
