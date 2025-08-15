@@ -3,10 +3,10 @@
 Student: Victoria Ramos (920012149)
 
 ## Project Status
-'Gray' is in progress. I have completed my k-maps, now I'm building the circuits
+'Gray' is in progress. 
 
 ## Known Issues
-
+My circuit is having some issues. I'm not getting the expected results for column 9 of the gray code. I'm working through the wiring and trying to find my error. I will make sure to document any sources that I use for help.
 
 ## References
 * [Build an XOR gate from AND/NOT](https://electronics.stackexchange.com/questions/487529/build-an-xor-gate-from-and-not)
