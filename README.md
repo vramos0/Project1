@@ -8,6 +8,8 @@ Student: Victoria Ramos (920012149)
 ## Known Issues
 My circuit is having some issues. I'm not getting the expected results for column 9 of the gray code. I'm working through the wiring and trying to find my error. I will make sure to document any sources that I use for help. I'm also making sure my boolean expressions are correct, so I'm going to look at them again, make sure I didn't make any errors and from there I'll rework the wiring on my circuit.
 
+update: I think I was able to correct 2 of my k-map boolean expressions. Now I'm reworking my wiring.
+
 ## References
 * [Build an XOR gate from AND/NOT](https://electronics.stackexchange.com/questions/487529/build-an-xor-gate-from-and-not)
 * [Some other link](https://stackoverflow.com)
