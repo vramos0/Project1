@@ -73,10 +73,54 @@ I needed XNOR, so changed it to:\
 &not;\(\(A &and; &not; B\) &or; \(&not; A &and; B\)\)
 
 ### Prompt 2
-My other prompt...
+What are some tips for grouping the 1s in the k-map and simplifying the boolean expression?
 
 ### Response 2
-The other response...
+When you’re grouping 1s in a K-map, the goal is to make the **fewest, largest power-of-two groups possible** so you get the simplest Boolean expression.
+Here are the key tips:
+
+Only Group in Powers of 2
+* Groups can have **1, 2, 4, 8, or 16 cells** — no other sizes.
+* Each group must be **rectangular** (including squares) and contain only 1s.
+
+Make Groups as Large as Possible
+* Bigger groups → fewer variables in the term.
+* Example:
+  * Group of 8 → 1 variable remains.
+  * Group of 4 → 2 variables remain.
+  * Group of 2 → 3 variables remain.
+  * Group of 1 → all variables remain (least simplified).
+
+Groups Can Overlap
+* Overlapping is allowed (and often necessary) to cover all 1s with the largest groups.
+* The same 1 can belong to more than one group if it helps simplify.
+
+Use Wrap-Around Adjacency
+* The left and right edges of the K-map are adjacent.
+* The top and bottom edges are adjacent.
+* This lets you form larger wrap-around groups.
+
+Minimize the Number of Groups**
+* Cover all 1s with the **fewest groups** while keeping groups as large as possible.
+* Start grouping with the largest clusters, then move to smaller leftover ones.
+
+Each Group Gives a Term
+
+For SOP (Sum of Products):
+  * Identify which variables are **constant** in the group.
+  * If a variable is 1 in all cells → keep it as itself (A).
+  * If a variable is 0 in all cells → keep it as its complement ($\overline{A}$).
+  * If it changes within the group → eliminate it from that term.
+
+Double-Check for Redundancy
+* If removing a group still covers all 1s, it’s redundant — delete it.
+
+✅ **Example:**
+If a group of 4 covers cells where $A=1$ and $B$ changes but $C=0$ in all cases → the term is $A\overline{C}$.
+
 
 ### Changes 2
-The other changes made...
+I figured that I hadn't derived the correct boolean equations and I needed a quick refresher on k-maps. After getting some tips and watching the youtube video (linked in references), I had to re-do my boolean expressions and I now have a better understanding of grouping the 1s. 
+I specifically changed
+* $G1 = \overline{B2}(B1+B0)+\overline{B3}B2\overline{B1}\overline{B0}$ to $G1 = \overline{B2}(B0+B1)+B2\overline{B0}\overline{B1}$
+* $G2 = (\overline{B3}B2)+(B3\overline{B2}$) to $G2 = (\overline{B3}(B2+B0B1)+B3\overline{B2}(\overline{B0}+\overline{B1}$)
