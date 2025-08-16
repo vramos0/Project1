@@ -16,7 +16,7 @@ Student: Victoria Ramos (920012149)
   
 
 ## Generative AI Use
-I used ChatGPT for Prompt 1, and ZZZZZ for Prompt 2....
+I used ChatGPT for Prompt 1, and ChatGPT for Prompt 2....
 
 ### Prompt 1
 How do you create an XOR from only and/or/not gates?
