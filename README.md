@@ -3,7 +3,7 @@
 Student: Victoria Ramos (920012149)
 
 ## Project Status
-'Gray' is complete and 'FiveSeven' is in progress.
+'Compare' & 'Gray' are complete and 'FiveSeven' is in progress.
 
 ## Known Issues
 
